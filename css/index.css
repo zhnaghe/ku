@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+.content {
+  width: 325px;
+  height: 400px;
+  background: gray;
+  margin: 0px auto; }
+  .content ul {
+    margin-left: 22px; }
+    .content ul .li-1 {
+      padding-top: 30px;
+      font-size: 18px;
+      color: white; }
+    .content ul .li-2 {
+      padding-top: 20px;
+      color: white;
+      font-size: 14px; }
+      .content ul .li-2 .p1 {
+        float: left; }
+      .content ul .li-2 .p2 {
+        float: right;
+        margin-right: 22px; }
+    .content ul .li-2:after {
+      display: block;
+      content: "";
+      clear: both; }
+    .content ul .li-3 {
+      padding-top: 5px;
+      position: relative; }
+      .content ul .li-3 input {
+        width: 242px;
+        height: 45px;
+        padding-left: 5px;
+        line-height: 45px; }
+      .content ul .li-3 .btn1 {
+        display: inline-block;
+        width: 40px;
+        height: 47px;
+        line-height: 45px;
+        background: white;
+        margin-left: -10px;
+        border: none;
+        border-left: 1px solid darkgrey;
+        cursor: pointer; }
+      .content ul .li-3 ul {
+        width: 285px;
+        background: white;
+        position: absolute;
+        z-index: 2;
+        display: none;
+        margin-left: 0px; }
+        .content ul .li-3 ul li {
+          width: 100%;
+          line-height: 25px;
+          color: gray; }
+        .content ul .li-3 ul li:hover {
+          background: #C6D6E7; }
+    .content ul .li-4 {
+      padding-top: 10px;
+      font-size: 14px;
+      color: white; }
+    .content ul .li-5 {
+      padding-top: 5px;
+      position: relative; }
+      .content ul .li-5 input {
+        width: 242px;
+        height: 45px;
+        padding-left: 5px;
+        line-height: 45px; }
+      .content ul .li-5 .btn2 {
+        width: 40px;
+        height: 47px;
+        line-height: 45px;
+        background: white;
+        margin-left: -10px;
+        border: none;
+        border-left: 1px solid darkgrey;
+        cursor: pointer; }
+      .content ul .li-5 ul {
+        width: 285px;
+        background: white;
+        position: absolute;
+        z-index: 2;
+        margin-left: 0px;
+        display: none; }
+        .content ul .li-5 ul li {
+          width: 100%;
+          line-height: 25px;
+          color: gray; }
+        .content ul .li-5 ul li:hover {
+          background: #C6D6E7; }
+    .content ul .li-6 {
+      margin-top: 18px; }
+      .content ul .li-6 input {
+        width: 282px;
+        height: 45px;
+        line-height: 45px;
+        background-color: #0094ef;
+        border: 1px solid #0094ef;
+        font-size: 16px;
+        color: white; }
+    .content ul .li-7 {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #c6cece;
+      width: 100%; }

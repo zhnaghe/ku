@@ -1,0 +1,136 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.content{
+    width: 325px;
+    height: 400px;
+    background: gray;
+    margin: 0px auto;
+    ul{
+        margin-left: 22px;
+        .li-1{
+            padding-top:30px;
+            font-size: 18px;
+            color: white;
+        }
+        .li-2{
+
+            padding-top: 20px;
+            color: white;
+            font-size: 14px;
+            .p1{
+                float: left;
+            }
+            .p2{
+                float:right;
+                margin-right: 22px;
+            }
+        }
+        .li-2:after{
+            display: block;
+            content: "";
+            clear: both;      
+        }
+        .li-3{
+             padding-top: 5px;
+             position: relative;
+            input{
+                width: 242px;
+                height: 45px;
+                padding-left: 5px;
+                line-height: 45px;
+            }
+            .btn1{
+                display: inline-block;
+               width: 40px;
+               height: 47px;
+               line-height: 45px;
+               background: white;
+               margin-left: -10px;
+              border: none;
+              border-left: 1px solid darkgrey;
+              cursor: pointer;
+            }
+            ul{
+               width: 285px;
+               background: white;
+               position: absolute;
+               z-index: 2;
+               display: none;
+               margin-left: 0px;
+               li{
+                   width: 100%;
+                   line-height: 25px;
+                   color: gray;
+               }
+               li:hover{
+                   background: #C6D6E7;
+               }
+           }
+        }
+        .li-4{
+            padding-top: 10px;
+            font-size: 14px;
+            color: white;
+        }
+        .li-5{
+             padding-top: 5px;
+
+             position: relative;
+            input{
+                width: 242px;
+                height: 45px;
+                padding-left: 5px;
+                line-height: 45px;
+            }
+            .btn2{
+               width: 40px;
+               height: 47px;
+               line-height: 45px;
+               background: white;
+               margin-left: -10px;
+              border: none;
+              border-left: 1px solid darkgrey;
+              cursor: pointer;
+            }
+            ul{
+               width: 285px;
+               background: white;
+               position: absolute;
+               z-index: 2;
+               margin-left: 0px;
+               display: none;
+               li{
+                   width: 100%;
+                   line-height: 25px;
+                   color: gray;
+               }
+               li:hover{
+                   background: #C6D6E7;
+               }
+           }
+        }
+        .li-6{
+            margin-top:18px;
+            input{
+                width: 282px;
+                height: 45px;
+                line-height: 45px;
+                background-color: #0094ef;
+                border: 1px solid #0094ef;
+                font-size: 16px;
+                color: white;
+            }
+        }
+        .li-7{
+            margin-top: 20px;
+            font-size: 14px;
+            color: #c6cece;
+            width: 100%;
+        }
+    }
+}
